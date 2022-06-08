@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="https://pic.onlinewebfonts.com/svg/img_398183.png" type="image/x-icon">
+  <title>Password Generator</title>
+</head>
+
+<body>
+
+  <section class="container">
+    <h1>Password Generator</h1>
+    <p id="password"></p>
+    <form>
+      <label>
+        <span>Password Length: </span>
+        <input type="number" id="p-length">
+      </label>
+      <p>Must have:</p>
+      <label class="label-row">
+        <span>Numbers</span>
+        <input type="checkbox" id="number" class="check-box">
+      </label>
+      <label class="label-row">
+        <span>Uppercase</span>
+        <input type="checkbox" id="upper" class="check-box">
+      </label>
+      <label class="label-row">
+        <span>Lowercase</span>
+        <input type="checkbox" id="lower" class="check-box">
+      </label>
+      <label class="label-row">
+        <span>Symbols</span>
+        <input type="checkbox" id="symbol" class="check-box">
+      </label>
+      <div class="buttons" id="buttons">
+        <button type="button" class="button" id="button">Generate Password</button>
+        <button type="button" class="button" id="copy-button">Copy Password</button>
+      </div>
+    </form>
+  </section>
+
+  <script src="./assets/js/bundle.js"></script>
+</body>
+
+</html>

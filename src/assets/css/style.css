@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: #ffca3a;
+  --primary-color-darker: #6a040f;
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.container h1{
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.label-row{
+  display: flex;
+}
+
+.button{
+  width: 250px;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+}
+
+#p-length{
+  width: 80px;
+  margin-left: 2px;
+}
+
+#password{
+  font-size: 40px;
+  font-weight: bold;
+  color: var(--primary-color-darker);
+  letter-spacing: 2px;
+}
+
+input{
+  margin-left: 10px;
+  height: 30px;
+  width: 30px;
+}
+
+label span{
+  width: 120px;
+  text-align: right;
+}
+form input {
+  font-size: 18px;
+  height: 30px;
+  padding: 0 3px;
+}
+
+form input:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+form button {
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.button:hover {
+  background: var(--primary-color-darker);
+}
